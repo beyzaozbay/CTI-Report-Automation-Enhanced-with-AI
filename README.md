@@ -48,13 +48,3 @@ archive/
   md/  2025-06-27.md
   html/2025-06-27.html
   pdf/ 2025-06-27.pdf
-Akış Şeması (metinsel)
-RSS → feedparser → (t < 'N gün'?) → Anahtar Kelime
-         ↓ (var)                          ↓ (var)
-     AI Relevance Check  ←——————— no ———— yes
-         ↓ (evet)                 |
-   AI Türkçe Özet + Başlık        |
-         ↓                        |
- Deduplication (AI) ————————————
-         ↓
- TXT / MD / HTML / PDF
